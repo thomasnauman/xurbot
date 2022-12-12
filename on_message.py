@@ -5,6 +5,7 @@ from item import Item
 import datetime
 from whereisxur import whereisxur
 
+
 async def on_message(message):
     if message.author == client.user:
         return
