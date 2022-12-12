@@ -4,10 +4,10 @@ from discord.ext import commands
 from item import Item
 
 # Replace with your Discord bot token
-DISCORD_BOT_TOKEN = "MTAxMDM3ODU5MzgyMzYyMTE3MA.G7A6wk.koei7pg9jEtjiOGB2SY4kU0k3k14HzmYP4sfiE"
+DISCORD_BOT_TOKEN = ""
 
 # Replace with your Destiny 2 API key
-DESTINY_API_KEY = "5f0c2efb72534d19a4edcba381f72e21"
+DESTINY_API_KEY = ""
 
 # URL for Xur's inventory on Bungie's API
 XUR_URL = "https://www.bungie.net/Platform/Destiny2/Vendors/4611686018467347905/Inventory"
