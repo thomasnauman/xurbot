@@ -5,6 +5,7 @@ from item import Item
 import datetime
 from whereisxur import whereisxur
 
+
 async def observe(message):
   # Get the current time
   now = datetime.datetime.now()
