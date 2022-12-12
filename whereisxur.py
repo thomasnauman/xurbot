@@ -3,6 +3,7 @@ import requests
 from discord.ext import commands
 from item import Item
 
+
 async def whereisxur(message):
     headers = {"X-API-Key": DESTINY_API_KEY}
     response = requests.get(XUR_URL, headers=headers)
