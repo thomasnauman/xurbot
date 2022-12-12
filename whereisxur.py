@@ -3,6 +3,9 @@ import requests
 from discord.ext import commands
 from item import Item
 
+DESTINY_API_KEY = "5f0c2efb72534d19a4edcba381f72e21"
+
+XUR_URL = "https://www.bungie.net/Platform/Destiny2/Vendors/4611686018467347905/Inventory"
 
 async def whereisxur(message):
     headers = {"X-API-Key": DESTINY_API_KEY}

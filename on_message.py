@@ -5,8 +5,9 @@ from item import Item
 import datetime
 from whereisxur import whereisxur
 
+client = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
-async def on_message(message):
+async def receive(message):
     if message.author == client.user:
         return
 
