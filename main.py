@@ -3,7 +3,7 @@ import requests
 from discord.ext import commands
 from item import Item
 
-# Replace with your Discord bot token
+# Replace with Discord bot token
 DISCORD_BOT_TOKEN = ""
 
 # Replace with your Destiny 2 API key
